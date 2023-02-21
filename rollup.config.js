@@ -1,3 +1,4 @@
+import copy from 'rollup-plugin-copy'
 export default {
     input: 'src/vsiuol-support-lib.js',
     output: {
@@ -6,5 +7,11 @@ export default {
         compact: true,
         sourcemap: 'inline'
     },
-    plugins: []
+    plugins: [
+        copy({
+            targets: [
+                { src: 'README.md', dest: 'public' }
+            ]
+        })
+    ]
 };
