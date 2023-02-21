@@ -1,0 +1,10 @@
+{
+  "name": "vsiuol",
+  "description": "Javascript library supporting consumers of the Luigi framework",
+  "license": "Apache-2.0",
+  "main": "vsiuol-support-lib.js",
+  "publishConfig": {
+    "tag": "vsiuol"
+  },
+  "version": "2.0.1"
+}
